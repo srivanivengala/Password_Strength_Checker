@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/09/58/18/64/360_F_958186432_84vwMW2cxRFvstnRaUEUDFhvgcYpqHoH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    .bor{
+        width:35vw;
+        height:30vh; 
+        color:white;
+        margin-top: 15vw;
+        margin-left:5vw;
+    }
+    #validationMessage{
+      color:red;
+      margin-left:8vw;
+    }
+    #validationMessage.valid{
+      color:green
+    }
+    .buttons{
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    #passwordInput,#pass {
+      width:15vw;
+      height:5vh;
+      text-align: center;
+    }
+    #strengthMessage{
+      margin-left: 8vw;
+    }
